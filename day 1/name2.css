@@ -1,0 +1,16 @@
+body{
+    background-image:url(maxresdefault.jpg);
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1,h4,p{
+    border: 5px solid;
+    background: linear-gradient(skyblue,lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+img{
+    border: 5px solid;
+}
