@@ -1,0 +1,89 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+h1{
+   text-align: center;
+    background-color:yellow;
+    padding: 5px;
+   width: 500px;
+     border: 5px solid black;
+     margin: 40px auto;
+     font-family: 'Press Start 2P', cursive;
+    }
+     
+    
+p{
+    font-weight: bold;
+    width: fit-content;
+    color: yellow;
+    margin: 0%;
+    font-family: 'Press Start 2P', cursive;
+    display: inline-block;
+}
+body{
+    background-image: url(/Ronnie.png);
+    background-attachment: fixed;
+    background-size:contain;
+    background-position: center;
+    margin: 20px;
+}
+li{
+    display: inline;
+}
+ul {
+    padding: 0;
+    margin-top:10px;
+    width: 100%;
+    color: yellow;
+}
+a{
+    outline:auto;
+    margin-bottom: 1%;
+    text-decoration: underline;
+    display:inline-block;
+    margin-right: 1%;
+    text-align: center;
+    padding: 15px;
+    box-sizing:border-box;
+    width: 31%;
+    color: black;
+    background-color: rgb(255, 239, 9);
+    border: 5px solid black;
+    font-family: 'Press Start 2P', cursive;
+}
+a:hover{
+    color: lightgreen;
+}
+h3{
+    font-family: "press start 2P;", "consolas";
+    color: yellow;
+    
+    display:inline-block ;
+    font-family: 'Press Start 2P', cursive;
+}
+.reda1{
+    width: 100%;
+    height: 200px; 
+}
+.reda1 img{
+    height: 100%;
+    border: 5px solid black;
+}
+a:hover{
+    font-size:large;
+}
+p,h3{
+   color:black;
+   background:linear-gradient(white,yellow);
+   padding: 1px;
+   border: 3px solid black;
+}
+.red2{
+    background: linear-gradient(white,yellow);
+}
+a{
+    background: linear-gradient(white,yellow);
+}
+.red3{
+    
+}

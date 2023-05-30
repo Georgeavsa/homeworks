@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* ეს თაგი არის 1 ლეველის ჰედინგი და ჩვენ მას მივეცით სხვადასხვა დეტალი */
+
+h1{
+    background-color: green;
+    border: 5px solid black;
+    display: inline-block;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+/* body-ში იწერება მთლიანი საიტის ინფორმაცია */
+body{
+    background-image: url(maxresdefault.jpg );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+/* ეს არის სიის თეგი */
+    ul {
+        padding: 0;
+        margin-top:10px;
+        width: 100%;
+}
+/* სიის თეგის შვილი */
+li{
+    display: inline;
+}
+
+/* მაუსის მიტანისას ელემენტი იღებს სასურველ ფორმას */
+a:hover{
+    color: aqua;
+}
+/* პარაგრაფ თეგი რომელიც გვეხმარება დიდი ტექსტის დაწერისთის */
+p{
+    color:whitesmoke;
+    font-family: 'Press Start 2P', cursive;
+}
+/* ფოტოს თეგი */
+img{
+   
+    border: 5px solid green;
+}
+
+/* მითითებული კლასის დეტალები */
+.avso{
+    outline:auto;
+    text-decoration: underline;
+    display:inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+    padding: 15px;
+    box-sizing:border-box;
+    width: 31%;
+    color: white;
+    background-color: green;
+    border: 5px solid black;
+    font-family: 'Press Start 2P', cursive;
+}
+/* მითითებული კლასის დეტალები */
+.avso2{
+    outline:auto;
+    text-decoration: underline;
+    display:inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+    padding: 15px;
+    box-sizing:border-box;
+    width: 31%;
+    color: white;
+    background-color: green;
+    border: 5px solid black;
+    font-family: 'Press Start 2P', cursive;
+}
+/* მითითებული კლასის დეტალები */
+.avso3{
+    outline:auto;
+    text-decoration: underline;
+    display:inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+    padding: 15px;
+    box-sizing:border-box;
+    width: 31%;
+    color: white;
+    background-color: green;
+    border: 5px solid black;
+    font-family: 'Press Start 2P', cursive;
+}
+/* ლინკის თეგის დეტალები */
+a{
+    color: rgb(18, 19, 18);
+}
+label{
+    color: white;
+    font-size: medium;
+    font-family: 'Press Start 2P', cursive;
+}
+table{
+    display: inline-block;
+    width: 1000px;
+    height: auto;
+    color: aliceblue;
+    border: 5px solid black;
+    background-color: green;
+    font-size: 1rem;
+    border-collapse: collapse;
+    padding-bottom: 2px;
+    padding: 3px;
+    font-family: 'Press Start 2P', cursive;
+}
+tr,td{
+    width: 100%;
+    height: 100%;
+    color:white;
+    padding: 1px;
+    padding-left: 5px;
+    border: solid 5px black;
+    font-family: 'Press Start 2P', cursive;
+}
+a:hover{
+    font-size: large;
+}

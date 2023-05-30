@@ -1,0 +1,27 @@
+p{
+    font-size: medium;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    color: rgb(15, 15, 14);
+    text-transform: capitalize;
+    letter-spacing: 2.5px;
+    word-spacing: 2.5px;
+}
+.super{
+    vertical-align: super;
+}
+.sub{
+    vertical-align: sub;
+}
+.pixel{
+    vertical-align: -10px;
+}
+p{
+    text-indent: 70px;
+}
+h1{
+    color: chocolate;
+    font-size: xx-large;
+    text-shadow: 6px 6px 2px rgb(10, 129, 233);
+}
