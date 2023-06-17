@@ -2,20 +2,19 @@
 /* ეს თაგი არის 1 ლეველის ჰედინგი და ჩვენ მას მივეცით სხვადასხვა დეტალი */
 
 h1{
-    background-color: green;
-    border: 5px solid black;
-    display: inline-block;
     font-family: 'Press Start 2P', cursive;
-    
+    padding: 5px;
+    font-style: italic;
+  
 }
 /* body-ში იწერება მთლიანი საიტის ინფორმაცია */
 body{
-    background-image: url(maxresdefault.jpg );
+    background: url(maxresdefault.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-
+   
 }
 /* ეს არის სიის თეგი */
     ul {
@@ -36,6 +35,7 @@ a:hover{
 p{
     color:whitesmoke;
     font-family: 'Press Start 2P', cursive;
+    text-align: center;
 }
 /* ფოტოს თეგი */
 img{
@@ -58,6 +58,7 @@ img{
     background-color: green;
     border: 5px solid black;
     font-family: 'Press Start 2P', cursive;
+    border-radius: 50px;
 }
 /* მითითებული კლასის დეტალები */
 .avso2{
@@ -74,6 +75,7 @@ img{
     background-color: green;
     border: 5px solid black;
     font-family: 'Press Start 2P', cursive;
+    border-radius: 50px;
 }
 /* მითითებული კლასის დეტალები */
 .avso3{
@@ -90,6 +92,7 @@ img{
     background-color: green;
     border: 5px solid black;
     font-family: 'Press Start 2P', cursive;
+    border-radius: 50px;
 }
 /* ლინკის თეგის დეტალები */
 a{
@@ -124,4 +127,38 @@ tr,td{
 }
 a:hover{
     font-size: large;
+}
+a:link{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:active{
+    color: beige;
+}
+.div23{
+   display: flex;
+   justify-content: center;
+}
+.div44{
+    justify-content: center;
+}
+.div99{
+    justify-content: center;
+}
+.mama99{
+    justify-content: center;
+    display: flex;
+}
+iframe{
+    border: 5px solid green;
+}
+img{
+    border-radius: 50px;
+    border-style: outset;
+}
+.deda1{
+    font-size: x-large;
+}
+.deda2{
+    font-size: x-large;
 }
